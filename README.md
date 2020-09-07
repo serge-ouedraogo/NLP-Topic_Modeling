@@ -1,4 +1,4 @@
-# Latent Dirichlet Association (LDA) for Topic Modeling
+#### Latent Dirichlet Association (LDA) for Topic Modeling
 
 This repository contains codes that identify topics within hotel reviews. This work was conducted using NLP and the gensim package to train an LDA model. The models learned the underlying topics and assigns each of the review documents to a topic.    
 The initial step is an exploratory analysis followed by a preprocessing stages to obtain a corpus bag of words and a dictionary that contains the words and their count. The corpus and the dictionary are fed to the LDA model to produce topics that consist of keywords and their corresponding weights. A typical approach to determine whether a document belongs to a particular topic is to find out which topic has the highest contribution to that document. Each document is then assigned to its most dominant topic.
